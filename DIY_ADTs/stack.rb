@@ -14,6 +14,6 @@ class Stack
     end
   
     def peek
-      @stack[0]
+      @stack[-1]
     end
   end
